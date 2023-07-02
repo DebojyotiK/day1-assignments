@@ -1,0 +1,227 @@
+body{
+    font-family: Poppins;
+}
+
+.center-card{
+    width: 328px;
+    margin: 20px auto;
+    margin-top: 150px;
+}
+
+.logo{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.title-text{
+    color: hsl(13.33deg 16.98% 10.39%);
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-container{
+    border: 1px solid #d2d0cd;
+    border-radius: 10px;
+    display: block;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.borderless{
+    border: none;
+}
+
+.borderless::placeholder{
+    color: #4e4441;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.borderless:focus{
+    outline: none;
+}
+
+.black-button{
+    background-color: black;
+    border-radius: 100px;
+    padding: 12px 36px;
+    display: block;
+    margin: 32px auto;
+    width: 160px;
+}
+
+.black-button-text {
+    font-size: 16px;
+    margin: 0px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.not-a-member-section{
+    font-family: Poppins;
+    text-align: center;
+    font-size: 14px;
+    color: hsl(14 5% 51%);
+    font-weight: 300;
+}
+
+.not-a-member-section a{
+    color: hsl(14 5% 51%)
+}
+
+.tnc-footer{
+    margin-top: 20px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 12px;
+    color: hsl(14 5% 51%);
+    font-weight: 300;
+}
+
+.tnc-footer a{
+    color: hsl(14 5% 51%)
+}
+
+.bussiness-card{
+    background-color: #1de593;
+    border-radius: 10px;
+    padding: 136px 50px 136px 48px;
+    margin: 10px auto;
+    display: block;
+    width: 540px;
+    box-sizing: border-box;
+}
+
+.white-button{
+    background-color: white;
+    border-radius: 100px;
+    padding: 12px 36px;
+    display: inline-block;
+}
+
+.button-text {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.bussiness-title{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.bussiness-subtitle{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.v-spacing-small {
+    height: 16px;
+}
+
+.v-spacing-medium {
+    height: 24px;
+}
+
+
+
+/*Profile Card*/
+.google-card{
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    font-family: Poppins;
+    display: block;
+    width: 480px;
+    margin: 0px auto;
+}
+
+.your-profile-card{
+    padding: 36px 28px;
+}
+
+.profile-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 12px 30px;
+}
+
+.all-profiles-card{
+    border-top: 1px solid #dadce0;
+    padding: 4px 28px;
+}
+
+.google-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #202124;
+    margin: 0px;
+}
+
+.google-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #5f6367;
+    margin-top: 12px;
+}
+
+.see-all-profile-button{
+    color: #1a74e7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top-banner{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.google-photos-description-card{
+    padding: 36px 28px;
+}
+
+.view-details-button{
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px 36px;
+    display: inline-block;
+    border: 1px solid #dadce0;
+    margin-top: 16px;
+}
+
+
+.view-details-button > .button-text{
+    color: #1a74e7;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.lock-container{
+    margin-bottom: 16px;
+}
+
+.lock-icon{
+    height: 20px;
+    width: 20px;
+    color: #616569;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+.lock-text{
+    font-weight: 500;
+    font-size: 16px;
+    color: #616569;
+    display: inline;
+    vertical-align: middle;
+}
